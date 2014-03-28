@@ -1,12 +1,13 @@
 <?php
+require_once("../inc/config.php");
 $pageTitle = "A Petry: Arc & Ash";
-include('inc/header.php'); ?>
+include(ROOT_PATH . 'inc/header.php'); ?>
 
 	<div class="image-block">
 		<div class="first-row">
 			<div class="grid_1 alpha"></div>
 			<div class="feature grid_8">
-				<img src="img/geo-750-600.png" alt="Steel Crystal">
+				<img src="<?php echo BASE_URL; ?>img/geo-750-600.jpg" alt="Steel Crystal">
 			</div>
 			<div class="blurb grid_3">
 				<p>
@@ -24,13 +25,13 @@ include('inc/header.php'); ?>
 		<div class="second-row">
 			<div class="empty-div grid_1 alpha"></div>
 			<div class="img-med img1 grid_3">
-				<img src="img/Major-415-356.jpg" alt="Major Arc Terrarium Stand">
+				<img src="<?php echo BASE_URL; ?>img/Major-415-356.jpg" alt="Major Arc Terrarium Stand">
 			</div>
 			<div class="img-sm img2 grid_2">
-				<img src="img/Arrows-231-124.jpg" alt="Steel Arrows">
+				<img src="<?php echo BASE_URL; ?>img/Arrows-231-124.jpg" alt="Steel Arrows">
 			</div>
 			<div class="img-med img3 grid_3">
-				<img src="img/Minor-415-356.jpg" alt="Minor Arc Terrarium Stand">
+				<img src="<?php echo BASE_URL; ?>img/Minor-415-356.jpg" alt="Minor Arc Terrarium Stand">
 			</div>
 			<div class="blurb-detail grid_3">
 				<p class="img-feature">
@@ -69,4 +70,4 @@ include('inc/header.php'); ?>
 	</div>
 
 
-<?php include('inc/footer.php'); ?>
+<?php include(ROOT_PATH . 'inc/footer.php'); ?>

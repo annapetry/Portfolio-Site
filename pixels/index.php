@@ -1,12 +1,13 @@
 <?php
+require_once("../inc/config.php");
 $pageTitle = "A Petry: Pixels";
-include('inc/header.php'); ?>
+include(ROOT_PATH . 'inc/header.php'); ?>
 
 <div class="image-block">
 	<div class="first-row">
 		<div class="grid_1 alpha"></div>
 		<div class="feature grid_8">
-			<img src="img/wk-arched-logo-750-600.png" alt="Large winsomekitchen Logo">
+			<img src="<?php echo BASE_URL; ?>img/wk-arched-logo-750-600.png" alt="Large winsomekitchen Logo">
 		</div>
 		<div class="blurb grid_3">
 			<p>
@@ -23,13 +24,13 @@ include('inc/header.php'); ?>
 	<div class="second-row">
 		<div class="empty-div grid_1 aplha"></div>
 		<div class="img-med img1 grid_3">
-			<img src="img/wk-circle-logo-415-356.jpg" alt="Small Circle wk Logo">
+			<img src="<?php echo BASE_URL; ?>img/wk-circle-logo-415-356.jpg" alt="Small Circle wk Logo">
 		</div>
 		<div class="img-sm img2 grid_2">
-			<img src="img/wk-multi-dim-pan-231-124.jpg" alt="Multi-Dimensional Pan wk Logo">
+			<img src="<?php echo BASE_URL; ?>img/wk-multi-dim-pan-231-124.jpg" alt="Multi-Dimensional Pan wk Logo">
 		</div>
 		<div class="img-med img3 grid_3">
-			<img src="img/wk-outline-415-356.png" alt="Small Circle sk Logo">
+			<img src="<?php echo BASE_URL; ?>img/wk-outline-415-356.png" alt="Small Circle sk Logo">
 		</div>
 		<div class="blurb-detail grid_3">
 			<p class="img-feature">
@@ -63,4 +64,4 @@ include('inc/header.php'); ?>
 
 </div>
 
-<?php include('inc/footer.php'); ?>
+<?php include(ROOT_PATH . 'inc/footer.php'); ?>

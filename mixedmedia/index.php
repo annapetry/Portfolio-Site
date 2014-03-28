@@ -1,12 +1,13 @@
 <?php
-$pageTitle = "A Petry: Mixed Materials";
-include('inc/header.php'); ?>
+require_once("../inc/config.php");
+$pageTitle = "A Petry: Mixed Media";
+include(ROOT_PATH . 'inc/header.php'); ?>
 
 	<div class="image-block">
 		<div class="first-row">
 			<div class="grid_1 alpha"></div>
 			<div class="feature grid_8">
-				<img src="img/record-table-750-600-adj.png" alt="Steel Record Table">
+				<img src="<?php echo BASE_URL; ?>img/record-table-750-600-adj.jpg" alt="Steel Record Table">
 			</div>
 			<div class="blurb grid_3">
 				<p>
@@ -22,13 +23,13 @@ include('inc/header.php'); ?>
 		<div class="second-row">
 			<div class="empty-div grid_1 alpha"></div>
 			<div class="img-med img1 grid_3">
-				<img src="img/knife-tilt-415-356.jpg" alt="Black Walnut Knife">
+				<img src="<?php echo BASE_URL; ?>img/knife-tilt-415-356.jpg" alt="Black Walnut Knife">
 			</div>
 			<div class="img-sm img2 grid_2">
-				<img src="img/nook-231-124-empty.jpg" alt="Oiled Natural Leather Nook Case">
+				<img src="<?php echo BASE_URL; ?>img/nook-231-124-empty.jpg" alt="Oiled Natural Leather Nook Case">
 			</div>
 			<div class="img-med img3 grid_3">
-				<img src="img/sheath-415-356.png" alt="Natural Leather Knife Sheath Detail">
+				<img src="<?php echo BASE_URL; ?>img/sheath-415-356.jpg" alt="Natural Leather Knife Sheath Detail">
 			</div>
 			<div class="blurb-detail grid_3">
 				<p class="img-feature">
@@ -63,4 +64,4 @@ include('inc/header.php'); ?>
 	</div>
 
 
-<?php include('inc/footer.php'); ?>
+<?php include(ROOT_PATH . 'inc/footer.php'); ?>

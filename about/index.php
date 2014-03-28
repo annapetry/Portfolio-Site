@@ -1,11 +1,13 @@
 <?php
+require_once("../inc/config.php");
+
 $pageTitle = "A Petry: About";
-include('inc/header.php'); ?>
+include(ROOT_PATH . 'inc/header.php'); ?>
 
 <div class="image-block">
 		<div class="grid_1"></div>
 		<div class="selfie grid_8">
-			<img src="img/selfie-750-600.png" alt="Selfie <3">
+			<img src="<?php echo BASE_URL; ?>img/selfie-750-600.jpg" alt="Selfie <3">
 		</div>
 		<div class="about grid_3">
 			<p>I&#146m a designer, a maker, and a do-it-myselfer.  
@@ -20,4 +22,4 @@ include('inc/header.php'); ?>
 			</p>
 		</div>
 </div>
-<?php include('inc/footer.php'); ?>
+<?php include(ROOT_PATH . 'inc/footer.php'); ?>
