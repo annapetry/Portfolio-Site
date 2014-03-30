@@ -11,11 +11,11 @@ include(ROOT_PATH . 'inc/header.php'); ?>
 			</div>
 			<div class="blurb grid_3">
 				<p>
-					I cherish the luxury of spending hours in the shop.  Carving, 
+					I cherish my hours spent in the shop.  Carving, 
 					welding, sewing, or drawing, I conceive my best ideas while 
 					working on projects of all sorts.  My personal work tends to
-					focus on well-designed and functional pieces, like tables, 
-					bed frames, trellises, and planters, but I also like to 
+					focus on well-designed functional pieces, like tables, 
+					bed frames, cutlery, and planters, but I also like to 
 					balance that bias with more form-based work.
 				</p>
 			</div>
@@ -46,14 +46,14 @@ include(ROOT_PATH . 'inc/header.php'); ?>
 					material.
 				</p>
 				<p class="img3-text">
-					A small natural leather pouch designed and made to house an Opinel 
+					A small natural leather pouch designed and made to hold an Opinel 
 					pocket knife. Worn cross-body, it keeps the knife secure and near. 
 				</p>
 				<p class="static-blurb">
 					Images (Clockwise from top):<br><br>
 					One of my favorite steel tables, this piece was designed to house
 					my mom's small but stellar vinyl collection as well as a record player.<br><br>
-					A small natural leather pouch designed and made to house an Opinel 
+					A small natural leather pouch designed and made to hold an Opinel 
 					pocket knife. Worn cross-body, it keeps the knife secure and near.<br><br>
 					Hand-carved Black Walnut butter knife, finished with polymerized tung oil. 
 					This little guy is in constant rotation at our house.
