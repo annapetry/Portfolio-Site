@@ -119,9 +119,6 @@ h2 span{
 img{
     width: 100%;
 }
-.small{
-    display: none;
-}
 .home-image{
     width: 45%; /* 250px / 830px */
 }
@@ -195,6 +192,24 @@ form input[type="submit"] {
 }
 .foot{
     margin-top: 15px;
+}
+.prev{
+      margin-right: 0;
+      padding-right: 5px;
+}
+.prev-last{
+    margin-right: 2.4%;
+}
+.next-nav img{
+    padding-right: 2.4%;
+}
+.back-nav{
+    text-align: left;
+    margin: 0;
+}
+.back-nav img{
+    margin-left: 2.4%;
+    margin-right: 5px;
 }
 .icons img{
     height: 36px;

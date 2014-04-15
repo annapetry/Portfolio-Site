@@ -44,7 +44,7 @@ include(ROOT_PATH . 'inc/header.php'); ?>
 			</div>
 			<div class="next-nav grid_6 omega">
 				<a href="<?php echo BASE_URL; ?>artifacts/minor.php">
-					<img src="<?php echo BASE_URL; ?>img/l-arrow-11-16.png">
+					<img class="prev" src="<?php echo BASE_URL; ?>img/l-arrow-11-16.png">
 					PREVIOUS
 				</a>
 				<a href="<?php echo BASE_URL; ?>artifacts/pyramids.php">

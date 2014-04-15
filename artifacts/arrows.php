@@ -37,8 +37,8 @@ include(ROOT_PATH . 'inc/header.php'); ?>
 				</a>
 			</div>
 			<div class="next-nav grid_6 omega">
-				<a href="<?php echo BASE_URL; ?>artifacts/sheath.php">
-					<img src="<?php echo BASE_URL; ?>img/l-arrow-11-16.png">
+				<a class="prev-last" href="<?php echo BASE_URL; ?>artifacts/sheath.php">
+					<img class="prev" src="<?php echo BASE_URL; ?>img/l-arrow-11-16.png">
 					PREVIOUS
 				</a>
 			</div>

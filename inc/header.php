@@ -4,10 +4,11 @@
     <meta http-equiv="content-Type" content="text/html; charset=uft-8"/>
     <meta name="viewport" content="width=device-width" />
     <meta name="p:domain_verify" content="bcfb9350c1d6362fac4df0ee560e0d4b"/>
+    <meta name="description" content="Anna Petry is a San Francisco-based web designer and developer who creates beautiful and intuitive user experiences, giving them life through code."/>
     <title><?php echo $pageTitle; ?></title>
     <link rel="stylesheet" href="<?php echo BASE_URL; ?>css/normalize.css" type="text/css" media="screen">
     <link rel="stylesheet" href="<?php echo BASE_URL; ?>css/grid-v2.css" type="text/css" media="screen">
-    <link rel="stylesheet" href="<?php echo BASE_URL; ?>css/style-v4.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="<?php echo BASE_URL; ?>css/main-squeeze.css" type="text/css" media="screen">
     <link rel="icon" href="<?php echo BASE_URL; ?>img/geo-32.png" type="image/x-icon" />
     <link rel="shortcut icon" href="<?php echo BASE_URL; ?>img/geo-32.ico" type="image/ico" />
     <link href='http://fonts.googleapis.com/css?family=Josefin+Sans:400,100italic' rel='stylesheet' type='text/css'>
@@ -30,10 +31,10 @@
 					</li>
 				</ul>
 				<ul class="right">
-					<li>
+					<li class="contact">
 						<a href="<?php echo BASE_URL; ?>contact">CONTACT</a>
 					</li>
-					<li>
+					<li class="resume">
 						<a href="<?php echo BASE_URL; ?>AnnaPetryResume-SF.pdf" target="_blank">RESUME</a>
 					</li>
 				</ul>

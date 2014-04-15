@@ -4,7 +4,7 @@ require_once("../inc/config.php");
 $pageTitle = "A Petry: About";
 include(ROOT_PATH . 'inc/header.php'); ?>
 
-<div class="image-block">
+<div class="content">
 		<div class="empty-div grid_1 alpha"></div>
 		<div class="selfie grid_5">
 			<img src="<?php echo BASE_URL; ?>img/selfie-750-600.png" alt="Selfie <3">
